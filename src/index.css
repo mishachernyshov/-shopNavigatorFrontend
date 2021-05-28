@@ -11,3 +11,189 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#site-head {
+  background-color: #02353d;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#site-head > div {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+#site-head a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#site-head a:hover {
+  color: #ffc43e;
+  text-decoration: none;
+}
+
+.product-id, .shop-id {
+  width: 15px;
+}
+
+.shop-link, .shop-link:visited {
+  color: black;
+}
+
+.product-name {
+  width: 210px;
+}
+
+.product-description {
+  max-height: 80px;
+  min-height: 40px;
+}
+
+.product-rating {
+  width: 80px;
+}
+
+.new-product-rating {
+  width: 120px;
+}
+
+.product-label {
+  width: 200px;
+}
+
+.delete-button {
+  width: 40px;
+  height: 40px;
+}
+
+.output-table-wrapper, #new-entity-card-wrapper {
+  margin: 20px 50px;
+}
+
+.table-title {
+  margin: 25px 0 0;
+  text-align: center;
+  font-size: 27px;
+}
+
+#new-product-card-content,
+#new-shop-card-content,
+#new-shop-product-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+#new-product-card-content > input,
+#new-shop-card-content > input,
+#new-shop-product-card-content > input {
+  margin: 3px 20px;
+}
+
+#new-product-button-wrapper {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+#new-shop-address-building {
+  width: 90px;
+}
+
+#new-shop-address-street {
+  width: 190px;
+}
+
+#new-shop-address-city, #new-shop-address-country  {
+  width: 220px;
+}
+
+#new-shop-name {
+  width: 260px;
+}
+
+.shop-address-group {
+  display: flex;
+}
+
+.shop-address-group > input {
+  margin: 4px;
+}
+
+.shop-address-country, .shop-address-city {
+  width: 180px;
+}
+
+.shop-address-street {
+  width: 260px;
+}
+
+.shop-address-building {
+  width: 100px;
+}
+
+.shop-name {
+  width: 200px;
+}
+
+.shop-product-count, .shop-avg-price {
+  width: 80px;
+}
+
+.shop-address {
+  width: 1px;
+}
+
+.shop-about, .shop-about {
+  max-height: 100px;
+  min-height: 40px;
+}
+
+#price-range, #exact-price {
+  display: block;
+  width: 200px;
+}
+
+#price-range-wrapper, #exact-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-subtitle {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.single-range-item, #exact-price-field {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.single-range-item > input {
+  width: 150px;
+}
+
+.filter-price-button {
+  padding: 5px 15px;
+  margin: 5px;
+}
+
+#exact-price {
+  margin-top: 40px;
+}
+
+#shop-products-info-wrapper {
+  display: grid;
+  grid-template-columns: 280px 10fr 9fr;
+  grid-template-areas: 'l r';
+  grid-gap: 40px;
+}
+
+.shop-product-product-name {
+  width: 230px;
+}
