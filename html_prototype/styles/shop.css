@@ -1,0 +1,48 @@
+.shop-link, .shop-link:visited {
+    color: black;
+}
+
+.shop-id {
+    width: 15px;
+}
+
+#new-shop-name {
+    width: 260px;
+}
+
+.shop-about, .shop-about {
+    max-height: 100px;
+    min-height: 40px;
+}
+
+.shop-product-count, .shop-avg-price {
+    width: 80px;
+}
+
+.shop-address {
+    width: 1px;
+}
+
+.shop-address-group {
+    display: flex;
+}
+
+.shop-address-group > input {
+    margin: 4px;
+}
+
+.shop-address-country, .shop-address-city {
+    width: 180px;
+}
+
+.shop-address-street {
+    width: 260px;
+}
+
+.shop-address-building {
+    width: 100px;
+}
+
+.shop-name {
+    width: 200px;
+}

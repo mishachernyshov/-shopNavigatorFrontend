@@ -32,6 +32,9 @@ function App() {
                         <ShopProduct requestManager={requestManager} />
                     } exact path='/shop/:id'
                 />
+                <Route exact path='/' >
+                    <Redirect to='/shop' />
+                </Route>
             </BrowserRouter>
         </div>
     );

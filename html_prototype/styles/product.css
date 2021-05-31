@@ -1,0 +1,28 @@
+.product-id, .shop-id {
+    width: 15px;
+}
+
+.shop-link, .shop-link:visited {
+    color: black;
+}
+
+.product-name {
+    width: 210px;
+}
+
+.product-description {
+    max-height: 80px;
+    min-height: 40px;
+}
+
+.product-rating {
+    width: 80px;
+}
+
+.new-product-rating {
+    width: 120px;
+}
+
+.product-label {
+    width: 200px;
+}

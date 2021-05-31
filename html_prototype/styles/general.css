@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#site-head {
+    background-color: #02353d;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#site-head > div {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+#site-head a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#site-head a:hover {
+    color: #ffc43e;
+    text-decoration: none;
+}
+
+.table-title {
+    margin: 25px 0 0;
+    text-align: center;
+    font-size: 27px;
+}
+
+.output-table-wrapper, #new-entity-card-wrapper {
+    margin: 20px 50px;
+}
+
+#new-product-card-content,
+#new-shop-card-content,
+#new-shop-product-card-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#new-product-card-content > input,
+#new-shop-card-content > input,
+#new-shop-product-card-content > input {
+    margin: 3px 20px;
+}
+
+#new-product-button-wrapper {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.delete-button {
+    width: 40px;
+    height: 40px;
+}

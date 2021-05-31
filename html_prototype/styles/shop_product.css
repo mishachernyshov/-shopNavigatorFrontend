@@ -1,0 +1,49 @@
+#shop-products-info-wrapper {
+    display: grid;
+    grid-template-columns: 280px 10fr 9fr;
+    grid-template-areas: 'l r';
+    grid-gap: 40px;
+}
+
+#price-range, #exact-price {
+    display: block;
+    width: 200px;
+}
+
+#price-range-wrapper, #exact-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-subtitle {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.single-range-item, #exact-price-field {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.single-range-item > input {
+    width: 150px;
+}
+
+.filter-price-button {
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+#exact-price {
+    margin-top: 40px;
+}
+
+.shop-product-product-name {
+    width: 230px;
+}
+
